@@ -15,20 +15,7 @@ This project is a Realtime E-Voting System implemented using HTML, CSS, JavaScri
 - Firebase (Realtime for data storage, Authentication for user authentication)
 
 ## Getting Started
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/realtime-e-voting-system.git
-    ```
-
-2. Open the project folder:
-
-    ```bash
-    cd realtime-e-voting-system
-    ```
-
-3. Open `index.html` in your preferred web browser.
-
+ Deployed Link :: https://65ac4ae19fb39feb670c7006--super-cactus-41fc0b.netlify.app/
 ## Firebase Setup
 1. Create a new Firebase project on the [Firebase Console](https://console.firebase.google.com/).
 2. Copy your Firebase configuration object from the project settings.
