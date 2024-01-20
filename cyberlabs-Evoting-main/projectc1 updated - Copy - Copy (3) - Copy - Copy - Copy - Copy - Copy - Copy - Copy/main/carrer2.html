@@ -202,20 +202,14 @@
         <div class="g1">
             <!-- Group 1 container -->
             <div class="section-title">
-                <!-- Section title containing subheading and content -->
                 <div class="content">
                     <!-- Editable heading -->
                     <h1 class="heading" contenteditable="true">Editable TITLE</h1>
-
-                    <!-- Editable nomination class -->
                     <h3 class="nominationcandidates1" contenteditable="true">Editable Description</h3>
                 </div>
             </div>
             <button class="start-voting-btn" onclick="startVoting()">Start Voting</button>
             <style>
-                /* Your existing CSS styles here */
-
-                /* Add a class for styling the "Start Voting" button */
                 .start-voting-btn {
                     background-color: #4CAF50;
                     color: white;
@@ -226,17 +220,17 @@
                 }
             </style>
             <script>
-                // Function to disable editable content after clicking "Start Voting"
+                // Here I used function to disable editable content after clicking "Start Voting"
                 function startVoting() {
-                    // Get all elements with the 'contenteditable' attribute
+                    // Got all elements with the 'contenteditable' attribute
                     const editableElements = document.querySelectorAll('[contenteditable="true"]');
 
-                    // Loop through each element and set 'contenteditable' to 'false'
+                    // I used looop through each element and set 'contenteditable' to 'false'
                     editableElements.forEach(element => {
                         element.contentEditable = false;
                     });
 
-                    // Disable file input elements
+                    // Disabled file input elements
                     const fileInputs = document.querySelectorAll('input[type="file"]');
                     fileInputs.forEach(input => {
                         input.disabled = true;
@@ -249,12 +243,8 @@
 
 
             <div class="group-1-javascript">
-                <!-- Container for JavaScript Group 1 -->
                 <div class="group-2-javascript">
-                    <!-- Nested container for JavaScript Group 2 -->
                     <div class="row">
-                        <!-- Row container for organizing candidate information -->
-
                         <div class="harshal" id="person1" onclick="selectPerson('person1')">
                             <!-- Input for uploading image -->
                             <input type="file" accept="image/*" onchange="handleImageUpload(event, 'person1Image')">
